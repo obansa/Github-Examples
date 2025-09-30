@@ -5,8 +5,7 @@ on:
 
 jobs:
   hello_world:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo Current Date and Time
-        run: echo "Current date and time: $(date)"
-        
+        run: echo "Current date and time $(date)"
