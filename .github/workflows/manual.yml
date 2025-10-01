@@ -19,6 +19,9 @@ on:
 jobs:
   greet:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
     steps:
       - name: Decode File Content
         run: |
